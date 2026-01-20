@@ -1,3 +1,5 @@
 .collage{
-    position: absolute;
+    position:"absolute";
 }
+
+#special1{background-color:blueviolet}
