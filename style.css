@@ -1,10 +1,14 @@
 .collage{
-    position:"absolute"; 
+    position:absolute;
 }
 
 #special1 {background-color:#5f9ea0 }
 
 @font-face {
-    font-family:GrayGothic;
-    src: url(C:\Users\haile\Desktop\InteractivityIISP26\hello_world\GrayShreve_interactivityIISP2026_helloWorld\Fonts\GrayGothic.ttf);
+    font-family:'GrayGothic';
+    src:url("./Fonts/GrayGothic.ttf") format('truetype')  
+}
+
+h1{
+    font-family:'GrayGothic',sans-serif;
 }
