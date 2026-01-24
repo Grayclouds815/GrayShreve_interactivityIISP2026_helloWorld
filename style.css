@@ -64,11 +64,10 @@ from {background-color: rgb(224, 59, 125);}
 to {background-color: rgb(77, 5, 78);}
 }
 
-p{animation-name:mytrialanimation ;
+p{animation-name:mytrialanimation;
     width:100px;
     height:100px;
     position: relative; 
-    background-color: rgb(98, 25, 186);
     animation-duration:4s ;
     animation-iteration-count:2 ;
     animation-direction: alternate-reverse;
@@ -77,4 +76,8 @@ p{animation-name:mytrialanimation ;
 @keyframes mytrialanimation { 
 from {background-color:plum}
 to {background-color: rgb(145, 113, 75);}
+}
+
+p:hover{
+    color: azure;
 }
