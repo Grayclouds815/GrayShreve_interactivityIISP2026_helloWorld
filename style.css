@@ -12,3 +12,8 @@
 h1{
     font-family:'GrayGothic',sans-serif;
 }
+
+.cropContainer{
+     position:absolute;
+     overflow: hidden;
+}
