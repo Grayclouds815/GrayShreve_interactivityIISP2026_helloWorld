@@ -76,12 +76,4 @@ p{animation-name:mytrialanimation ;
 
 @keyframes mytrialanimation { 
 from {background-color:plum}
-to {background-color: bisque;
-
-}
-
-
-
-
-
-
+to {background-color: rgb(145, 113, 75}
