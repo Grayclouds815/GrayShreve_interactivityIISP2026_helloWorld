@@ -17,3 +17,71 @@ h1{
      position:absolute;
      overflow: hidden;
 }
+
+.container{position: relative;
+    width:100vw;
+    height:200px;
+    background-color:rgb(69, 22, 64);}
+
+    .center{
+        position:absolute; 
+        left:50%;
+        top:50%;
+        transform:translate(-50%,-50%);
+        margin:0;
+    }
+
+    .displayexp{display:flex;
+        gap:20px;
+    
+    }
+
+    .displayexp div{
+        flex:1;
+        padding:20px;
+        color:white;
+        margin:20px;
+    }
+
+    .flexcontainer{
+        display:flex; 
+        width:100vw;
+        justify-content: center;
+        height:500px;
+        align-items:center;
+    }
+
+h2{
+animation-name:changeBGcolor;
+animation-duration: 3s;
+animation-iteration-count:infinite;
+animation-direction: alternate;
+
+}
+   
+@keyframes changeBGcolor{ 
+from {background-color: rgb(224, 59, 125);}
+to {background-color: rgb(77, 5, 78);}
+}
+
+p{animation-name:mytrialanimation ;
+    width:100px;
+    height:100px;
+    position: relative; 
+    background-color: rgb(98, 25, 186);
+    animation-duration:4s ;
+    animation-iteration-count:2 ;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes mytrialanimation { 
+from {background-color:plum}
+to {background-color: bisque;
+
+}
+
+
+
+
+
+
