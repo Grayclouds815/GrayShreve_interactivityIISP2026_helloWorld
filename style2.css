@@ -1,0 +1,22 @@
+@font-face {
+    font-family:'GrayGothic';
+    src:url("./Fonts/GrayGothic.ttf") format('truetype')  
+}
+h1  {font-family:'GrayGothic';
+    src: url("./Fonts/GrayGothic.ttf");} 
+
+ .center{
+        position:absolute; 
+        left:50%;
+        top:50%;
+        transform:translate(-50%,-50%);
+        margin:0;
+    }
+
+
+    Body {margin:0 
+    }
+ #background { 
+    background-image: url(black_journalP.html);
+    height:100vh;
+ }
