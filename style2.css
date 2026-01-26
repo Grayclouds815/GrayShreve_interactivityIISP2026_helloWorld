@@ -2,21 +2,27 @@
     font-family:'GrayGothic';
     src:url("./Fonts/GrayGothic.ttf") format('truetype')  
 }
+
 h1  {font-family:'GrayGothic';
-    src: url("./Fonts/GrayGothic.ttf");} 
+    src: url("./Fonts/GrayGothic.ttf");
+color:rgb(250, 250, 250)} 
 
  .center{
         position:absolute; 
         left:50%;
-        top:50%;
+        top:57%;
         transform:translate(-50%,-50%);
         margin:0;
+        padding:0;
     }
 
 
-    Body {margin:0 
-    }
- #background { 
-    background-image: url(black_journalP.html);
+    Body{margin:0px;padding:0px}
+
+ #background {
+    background-image: url("./images/blackjpg.jpg");
     height:100vh;
+    width:100%;
+    background-size: cover;
  }
+
